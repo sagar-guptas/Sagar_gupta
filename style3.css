@@ -139,7 +139,7 @@ p{
     filter: brightness(-2);
 } */
 @media (max-width: 999.98px){
-    a {
+    .title {
         color: white;
         background-color: black;
     }
