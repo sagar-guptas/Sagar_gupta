@@ -1,0 +1,343 @@
+*{
+    font-weight: bold;
+    background-color: rgb(248,248,248);
+    font-family:"Poppins", Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.navv{
+    background-color: transparent;
+    height: 30px;
+    /* position: fixed; Fixed position */
+    width: 100%; /* Full width */
+    z-index: 100;
+    padding: 10px;
+     
+}
+li{
+    padding-left: 60px;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: monospace;
+    list-style: none;
+
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+   /* align-items: center; */
+    justify-content: center;
+    padding-top: 180px;
+
+}
+.sec{
+    width: 90%;
+    height: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+    align-content: center;
+}
+p{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+ 
+
+}
+.yel{
+    text-decoration: none;
+    color: grey;
+}
+.yel:hover{
+    color: rgb(213,196,85);
+}
+.whi{
+    color: grey;
+    text-decoration: none;
+}
+.abt{
+   margin-top: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0px;
+ 
+
+}
+
+.main{
+    display: flex;
+    padding-top: 60px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ccd{
+    width: 90%;
+   display: flex;
+    flex-wrap: wrap;
+    padding-left: 90px;
+}
+.card{
+    margin: 8px;
+    background-color: white;
+    width: 44%;
+    height: 200px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner{
+  background-color: white;
+}
+
+.yye{
+    display: flex;
+  justify-content: center;
+
+    font-size: 70px;
+    margin-bottom: 5px;
+    background-color: transparent;
+    color: rgb(213,196,85);
+}
+.whh{
+    font-size: 18px;
+    font-weight: 100;
+    background-color: transparent;
+}
+
+.right{
+    align-items: flex-start;
+    width: 50%;
+}
+.w{
+  margin-bottom: 10px;
+    color: rgb(213,196,85);
+    display: block;
+
+}
+.www{
+    margin-top: 15px;
+    color: rgb(213,196,85);
+    display: block;
+}
+.pro{
+    display: flex;
+    padding-top: 35px;
+    margin-bottom: 35px;
+    
+}
+
+.table {
+    display: table;
+    width: 100%;
+  }
+  .row {
+    display: table-row;
+  }
+ 
+  .content {
+    color: rgb(213,196,85);
+    display: table-cell;
+    padding: 7px;
+    
+  }
+  .subject {
+    width: 80px; /* Set a fixed width for the subject column */
+  }
+  .cvbtn{
+    text-decoration: none;
+    padding: 10px;
+    background-color:rgb(213,196,85) ;
+    color: white;
+  }
+
+  .sk{
+    width: 80%;
+    /* display: flex;
+    flex-wrap: wrap; */
+  }
+  .ski{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .sss{
+    display: flex;
+    justify-content: space-around;
+  }
+  .one{
+    width: 30%;
+  }
+  .two{
+    width: 30%;
+  }
+  .three{
+    width: 30%;
+  }
+  .mm{
+    display: inline-block;
+  }
+  .cdd{
+    display:flex ;
+    font-size: 12px;
+    justify-content: space-between;
+  }
+  .cds{
+    margin: 25px 0px;
+    padding: 10px 0;
+  }
+  .pat{
+    padding: 2px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 5px;
+  }
+  .CANVA{
+    width: 50%;
+    padding: 3px;
+    background-color: rgb(213,196,85);
+  }
+  .C{
+    width: 60%;
+    padding: 3px;
+    background-color: rgb(213,196,85);
+  }
+
+  .HTML{
+    width: 80%;
+    padding: 3px;
+    background-color: rgb(213,196,85);
+  }
+   .Cpp{
+    width: 70%;
+    padding: 3px;
+    background-color: rgb(213,196,85);
+  }
+  .CSS{
+    width: 60%;
+    padding: 3px;
+    background-color: rgb(213,196,85);
+  }
+  .FLUTTER{
+    width: 30%;
+    padding: 3px;
+    background-color: rgb(213,196,85);
+  }
+  .js{
+    width: 60%;
+    padding: 3px;
+    background-color: rgb(213,196,85);
+  }
+  .react{
+    width: 60%;
+    padding: 3px;
+    background-color: rgb(213,196,85);
+  }
+  .express{
+    width: 40%;
+    padding: 3px;
+    background-color: rgb(213,196,85);
+  }
+  
+
+
+
+
+  
+  @media (max-width: 767.98px){
+    *{
+        background-color: transparent;
+    }
+    a {
+      color: white;
+  }
+    body{
+        background-color:  rgb(248,248,248);
+    }
+    li{
+        padding: 5px;
+        margin: 0;
+        font-size: 20px;
+    
+    }
+    .navv {
+        background-color: black;
+        color: white;
+        padding: 10px;
+        margin: 0;
+        position: relative;
+    }
+    .main {
+        display: flex;
+        padding-top: 60px;
+        width: 100%;
+        margin-bottom: 50px;
+        flex-direction: column;
+    }
+    .left {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .ccd {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-left: 0px;
+        justify-content: center;
+    }
+    .card {
+        margin: 18px 8px;
+        background-color: white;
+        width: 82%;
+        height: 200px;
+
+
+    }
+
+    .right{
+        width: 88%;
+        padding: 30px;
+        
+    }
+    .pro {
+        display: flex;
+        padding-top: 50px;
+        margin-bottom: 50px;
+        flex-wrap: wrap;
+    }
+    .sss {
+      display: block;
+      justify-content: space-around;
+  }
+  .one {
+    width: 90%;
+  }
+  .two {
+    width: 90%;
+  }
+  .three {
+    width: 90%;
+  }
+
+
+   
+  }

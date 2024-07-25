@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-family:"Poppins", Arial, sans-serif;
+}
+.navv{
+    
+    height: 30px;
+    /* position: fixed; Fixed position */
+    width: 100%; /* Full width */
+    z-index: 100;
+    padding: 10px;
+     
+}
+li{
+    
+    padding-left: 60px;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: monospace;
+    list-style: none;
+
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+   /* align-items: center; */
+    justify-content: center;
+    padding-top: 180px;
+
+}
+.sec{
+    width: 90%;
+    height: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 26px;
+}
+p{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+ 
+
+}
+.yel{
+    text-decoration: none;
+    color: grey;
+}
+.yel:hover{
+    color: rgb(213,196,85);
+}
+.whi{
+    color: grey;
+    text-decoration: none;
+}
+.abt{
+   margin-top: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0px;
+ 
+
+}
+
+.containme{
+    width: 100%;
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(213,196,85);
+}
+form{
+    background-color: rgb(228, 242, 255);
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 50%;
+    max-width: 600vh;
+    border-radius: 10px;
+}
+form h3{
+    color: #555;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+form input,form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #9fd9ff;
+    font-size: 16px;
+}
+form button{
+    
+    background: red;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+    padding: 10px;
+
+}
+@media only screen and (min-width:179px) {
+form{
+  width: 90%;
+}
+.navv{
+    background-color: black;
+    color: white;
+  }
+  a{
+    color: white;
+  }
+
+}
+@media only screen and (min-width:509px) {
+  form{
+    width: 70%;
+  }
+  .navv{
+    background-color: black;
+    color: white;
+  }
+  a{
+    color: white;
+  }
+}
+@media only screen and (min-width:809px) {
+  form{
+    width: 50%;
+  }
+  .navv{
+    background-color: black;
+    color: white;
+  }
+  a{
+    color: white;
+  }
+}
+
+
+    </style>
+</head>
+<body>
+  <nav class="navv">
+    <ul>
+      <li><a href="index.html">Gupta's</a> </li>
+    </ul>
+</nav>
+<div class="container">
+    <div class="sec">
+        <p><a class="yel" href="index.html">HOME ></a> <a class="whi" href="http://"> CONTACT US > </a></p>
+        <h1 class="abt">Contact Us</h1>
+    </div>
+
+<!-- <h1 id="ii" class ="ii">Contact</h1> -->
+<div class="containme" id="containme" data-aos="fade-in">
+    <form action="https://api.web3forms.com/submit" method="POST" method="POST" />
+    <input type="hidden" name="access_key" value="9d45fb8e-6247-4a97-970d-81c5c30361bd">
+        <h3>GET IN TOUCH </h3>
+        <input type="text" id="namme"placeholder="Your Name" name="Name" required>
+        <input type="email" id="email" placeholder="Email id" name="Email"required>
+        <input type="text" id="phone-" placeholder="Phone No" name="Mobile no" required>
+        <textarea  id="message"  rows="4" name="Message" placeholder="HOW CAN I HELP YOU " required></textarea>
+        <button type="submit">Submit</button>
+
+    </form>
+</div>
+    
+</body>
+</html>
